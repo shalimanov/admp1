@@ -1,0 +1,16 @@
+=== kNN_k=15 ===
+Confusion matrix:
+[[21036  1028]
+ [ 3470  2905]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0      0.858     0.953     0.903     22064
+           1      0.739     0.456     0.564      6375
+
+    accuracy                          0.842     28439
+   macro avg      0.799     0.705     0.734     28439
+weighted avg      0.832     0.842     0.827     28439
+
+Accuracy: 0.842

@@ -1,0 +1,16 @@
+=== NaiveBayes ===
+Confusion matrix:
+[[13869  8195]
+ [ 1848  4527]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0      0.882     0.629     0.734     22064
+           1      0.356     0.710     0.474      6375
+
+    accuracy                          0.647     28439
+   macro avg      0.619     0.669     0.604     28439
+weighted avg      0.764     0.647     0.676     28439
+
+Accuracy: 0.647

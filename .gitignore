@@ -1,1 +1,20 @@
+# Ignore OS files.
+.DS_Store
+data/__MACOSX
+
+# Ingore artifacts
+artifacts/models
+
+# Ignore pyton env and cache
 venv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+rm
+
+.ipynb_checkpoints/

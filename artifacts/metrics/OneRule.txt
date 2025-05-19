@@ -1,0 +1,16 @@
+=== OneRule ===
+Confusion matrix:
+[[19870  2194]
+ [ 3210  3165]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0      0.861     0.901     0.880     22064
+           1      0.591     0.496     0.539      6375
+
+    accuracy                          0.810     28439
+   macro avg      0.726     0.699     0.710     28439
+weighted avg      0.800     0.810     0.804     28439
+
+Accuracy: 0.810

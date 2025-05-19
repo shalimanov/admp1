@@ -1,0 +1,16 @@
+=== DecisionTree_depth=10 ===
+Confusion matrix:
+[[20810  1254]
+ [ 3255  3120]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0      0.865     0.943     0.902     22064
+           1      0.713     0.489     0.581      6375
+
+    accuracy                          0.841     28439
+   macro avg      0.789     0.716     0.741     28439
+weighted avg      0.831     0.841     0.830     28439
+
+Accuracy: 0.841
