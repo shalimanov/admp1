@@ -60,6 +60,8 @@ def main():
     # 1-Rule
     one_r = OneRuleClassifier(n_bins=5)
     one_r.fit(X_train, y_train)
+    print(one_r.best_feature_)
+    print(one_r.rules_)
     evaluate_and_save("OneRule", one_r, X_test, y_test)
 
     # Naive Bayes

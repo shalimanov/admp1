@@ -44,6 +44,7 @@ class OneRuleClassifier:
 
         self.best_feature_ = best_feat
         self.rules_ = best_rules
+
         return self
 
     def predict(self, X: pd.DataFrame):
